@@ -23,7 +23,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
-	"github.com/xm1k3/cent/pkg/jobs"
+	"github.com/abd-4fg/cent/pkg/jobs"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
