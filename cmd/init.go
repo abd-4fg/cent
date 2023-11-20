@@ -22,7 +22,7 @@ import (
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
-	"github.com/xm1k3/cent/internal/utils"
+	"github.com/abd-4fg/cent/internal/utils"
 )
 
 // initCmd represents the init command
