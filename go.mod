@@ -1,4 +1,4 @@
-module github.com/xm1k3/cent
+module github.com/abd-4fg/cent
 
 go 1.19
 
