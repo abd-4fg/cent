@@ -24,7 +24,7 @@ import (
 	"github.com/fatih/color"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
-	"github.com/xm1k3/cent/pkg/jobs"
+	"github.com/abd-4fg/cent/pkg/jobs"
 )
 
 // updateCmd represents the update command
