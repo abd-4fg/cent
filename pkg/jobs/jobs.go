@@ -141,33 +141,6 @@ func UpdateRepo(path string, remDirs bool, remFiles bool, printOut bool) {
 		})
 }
 
-func RemoveDuplicates(path string, console bool) {
-	fmt.Println("Removing duplicate templates...")
-	files := getFilePaths(path)
-	hashes := make(map[string]string)
-
-	// get file hashes
-	for _, file := range files {
-		hashes[file] = getFileHash(file)
-	}
-
-	// get hash files
-	hashfiles := make(map[string][]string)
-	for file, hash := range hashes {
-		hashfiles[hash] = append(hashfiles[hash], file)
-	}
-
-	// for each hash, remove all the files except the first one
-	for _, files := range hashfiles {
-		sort.Strings(files)
-		for _, fileToRemove := range files[1:] {
-			if console {
-				fmt.Printf("Removing duplicate file: %s\n", fileToRemove)
-			}
-			os.Remove(fileToRemove)
-		}
-	}
-}
 
 func getFilePaths(path string) []string {
 	var files []string
