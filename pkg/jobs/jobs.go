@@ -17,7 +17,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/go-git/go-git/v5"
 	"github.com/spf13/viper"
-	"github.com/xm1k3/cent/internal/utils"
+	"github.com/abd-4fg/cent/internal/utils"
 )
 
 func cloneRepo(gitPath string, console bool, index string, timestamp string) error {
