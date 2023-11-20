@@ -19,7 +19,7 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/xm1k3/cent/pkg/jobs"
+	"github.com/abd-4fg/cent/pkg/jobs"
 )
 
 // checkCmd represents the check command
