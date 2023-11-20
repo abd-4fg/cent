@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/xm1k3/cent/cmd"
+import "github.com/abd-4fg/cent/cmd"
 
 func main() {
 	cmd.Execute()
